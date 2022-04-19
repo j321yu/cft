@@ -12,8 +12,8 @@ This is a repository dedicated to the development of a test for Microsoft Azure 
 ## Getting Started <a name = "getting_started"></a>
 
 ### System Info
-Windows 10 through WSL ubuntu
-Anaconda3 - Python 3.9
+Windows 10 through WSL ubuntu \n
+Anaconda3 - Python 3.9 \n
 Microsoft Azure Counterfit version 1.0.0
 
 ### Installation
