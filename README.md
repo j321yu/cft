@@ -24,6 +24,7 @@ Microsoft Azure Counterfit version 1.0.0
 3. Installed Counterfit by following the intructions on the repo - cloned the repository then created a virtual environment for it
 
 ## Progress <a name = "progress"></a>
-1. Ran through the demos and documented notes on it
+Before 6/1 - Ran through the demos and took corresponding notes. 
 
 ## Notes <a name = "notes"></a>
+Demo notes - There are a variety of targets, frameworks, and attacks. These are all divided into separate categories of their own. From the demo, it can be seen that targets include things such as satellite image detections, credit card fraud, text sentiments, and more. Frameworks are more specific to the type of attack. These include art, text, and more. With attacks, it depends on what the previous selections (target and framework) were. There are many attacks already and can be divided into various categories such as blackbox and whitebox. Furthermore, it is divided based on the type of framework.
