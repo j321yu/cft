@@ -28,17 +28,18 @@ Microsoft Azure Counterfit version 1.0.0
 This is a progress log of work done. Will be kept rather short as the bulk of information will be kept under notes.
 + Before 6/1 - Ran through the demos and took corresponding notes. 
 + 6/1 - Massive update to the github readme. Began work with looking at preexisting targets in more detail and information on already existing attacks was also gathered. Viewed a webinar with a demonstration of the application. Learned more of the basic general functionality of Counterfit.
++ 6/2 - Continued gathering data. This time with a further focus on attacks. Reminder to look more in-depth at whitebox and blackbox attacks.
 
 ## Notes <a name = "notes"></a>
 These notes are an organization of of all the information collected and gathered. Therefore, each section (or bullet point) will be updated in the future if new relevant information is found.
 + Demo notes - There are a variety of targets, frameworks, and attacks. These are all divided into separate categories of their own. Attacks change the sample in some way, which results in the AI to recognize the result as something else.
 + Targets - Demo includes satellite image detections, credit card fraud, text sentiments, and more. Each target has a corresponding model type, data type, input shape, and samples which can be used as a specific target to attack. A target must be "interacted" with in order to be used. 
 + Frameworks - Specific to the type of attack. These include art, text, and more. This is the "biggest" aspect of Counterfit. 
-+ Attacks - Depend on previous selections (target and framework) were. There are many attacks already and can be divided into various categories such as blackbox and whitebox. Furthermore, it is divided based on the type of framework such as attacks on images as opposed to text.
++ Attacks - Depend on previous selections (target and framework) were. There are many attacks already and can be divided into various categories such as blackbox and whitebox. Whitebox meaning that the attack has access to all the parameters of the target. On the other hand, Blackbox attacks do not have access to all the parameters of the target. Furthermore, it is divided based on the type of framework such as attacks on images as opposed to text. With each attack, there are several parameters that can be adjusted which include, but are not limited to sample index selection, iterations, and size. Each attack affects the confidence value associated with the selection. Afterwards, it can be viewed to see if the attack has sufficiently changed it or not.
 
 
 ## Current Questions <a name = "questions"></a>
-These are current questions that are being pondered upon. All of the questions as of now relate to Counterfit and what it is capable of. Therefore, upon completion of each question, they will be moved to an answered section.
+These are current questions that are being pondered upon. All of the questions as of now relate to Counterfit and what it is capable of. Therefore, upon completion of answering each question, they will hopefully be moved to an answered section.
 
 1. What are other possible targets viable with Counterfit? Examples could include songs, clothing, and more.
 2. What are other frameworks that can be used in Counterfit? Examples could include video, sound, and more.
