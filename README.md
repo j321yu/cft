@@ -32,6 +32,8 @@ This is a progress log of work done. Will be kept rather short as the bulk of in
 + 6/3 - Continued with 6/2 work. Looked extensively at parameters of attacks. Began to start looking at answers for the questions and finding out what other targets and frameworks Counterfit is compatible with.
 + 6/6 - Looked at the actual code for Counterfit to develop a deeper understanding. Also looked at the code to get an idea of the machine learning and look at ways to potentially improve it.
 + 6/7 - Continued to look at information relating to the machine learning involved, but did not find out much yet. Looked a lot at documentation with other related functionality such as creating own targets, frameworks, etc,. Started to look at a what the demo should include and contain.
++ 6/8 - Began design of the tree. First focused on a few layers. Tree was designed primarily by looking at each target. Then, for each of the three targets, what about it can be done. Note - Tree is on actual paper, not digital.
++ 6/9 - Finished tree to a decent amount. May consider adding more to it later. Resumed work on demo and what it should have.
 
 ## Notes <a name = "notes"></a>
 These notes are an organization of of all the information collected and gathered. Therefore, each section (or bullet point) will be updated in the future if new relevant information is found.
