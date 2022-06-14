@@ -35,6 +35,8 @@ This is a progress log of work done. Will be kept rather short as the bulk of in
 + 6/8 - Began design of the tree. First focused on a few layers. Tree was designed primarily by looking at each target. Then, for each of the three targets, what about it can be done. Note - Tree is on actual paper, not digital.
 + 6/9 - Finished tree to a decent amount. May consider adding more to it later. Resumed work on demo and what it should have.
 + 6/10 - Finished demo. Began to read and amass information on Machine Learning and Cybersecurity as a whole to improve general knowledge on the subject.
++ 6/13 - Completed and reorganized tree. Modified demo to reflect the changed tree.
++ 6/14 - Recorded and sent demo for viewing. Started to look at the ML Model thaht Counterfit uses.
 
 ## Notes <a name = "notes"></a>
 These notes are an organization of of all the information collected and gathered. Therefore, each section (or bullet point) will be updated in the future if new relevant information is found.
