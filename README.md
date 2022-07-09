@@ -37,6 +37,7 @@ This is a progress log of work done. Will be kept rather short as the bulk of in
 + 6/10 - Finished demo. Began to read and amass information on Machine Learning and Cybersecurity as a whole to improve general knowledge on the subject.
 + 6/13 - Completed and reorganized tree. Modified demo to reflect the changed tree.
 + 6/14 - Recorded and sent demo for viewing. Started to look at the ML Model thaht Counterfit uses.
++ 7/6-8 - Began looking at OpenCV and Amazon Polly services for considering whether or not video can be used in Counterfit. First started by using Ubuntu on my own and trying to manually try extracting images from videos and text from the audio in videos.
 
 ## Notes <a name = "notes"></a>
 These notes are an organization of of all the information collected and gathered. Therefore, each section (or bullet point) will be updated in the future if new relevant information is found.
@@ -51,6 +52,10 @@ These notes are an organization of of all the information collected and gathered
   + Logging - Logs the queries for each of the attack.
   + Report - Has report printing functionality for each time an attack is ran. This includes confidence levels, queries, index the attack ran at, time taken, and more.
   + Targets - Currently contains all the demo targets. Each target has a classifier, type, and so on which is used to determine compatibility with certain frameworks and attacks. There are also output classes which indicate what the targets can be potentially recognized as. Then, each of the targets has a specific data structure that it is represented with. This is what is modified in the attacks.
+  
+This is information regarding the progress made towards video implementation in Counterfit.
++ Image - This can be gained from either DirectX or OpenCV. For my case, I will be using OpenCV as image extraction functionality seems to be better supported for my use cases. The goal is to be able to from a video, get a series of images that correspond to that video. This seems to be done best by extracting each frame inside a video.
++ Audio - This can be done through Amazon Polly. This will allow for a transcription of the text to be gotten. May be a concern if there is no way for the text to be aligned with the video.
 
 
 ## Current Questions <a name = "questions"></a>
@@ -66,3 +71,5 @@ These are current questions that are being pondered upon. All of the questions a
   + Given that the majority of the attacks are blackbox, this seems to indicate more support towards not needing an access. However, some whitebox is supported, so it may be that an access is not completely mandatory.
 + How do queries relate to the success of an attack? 
   + Simply put, more queries tend to increase the success rate of an attack. However, more queries also indicates more resource usage in the attack as well.
++ When a video is broken down into images and text, is there a way to revert the video back? 
+  + This can potentially be important to verify the validity and accuracy of the image/audio extract from the video.
