@@ -38,6 +38,8 @@ This is a progress log of work done. Will be kept rather short as the bulk of in
 + 6/13 - Completed and reorganized tree. Modified demo to reflect the changed tree.
 + 6/14 - Recorded and sent demo for viewing. Started to look at the ML Model thaht Counterfit uses.
 + 7/6-8 - Began looking at OpenCV and Amazon Polly services for considering whether or not video can be used in Counterfit. First started by using Ubuntu on my own and trying to manually try extracting images from videos and text from the audio in videos.
++ 7/11-15 - Experienced power outage in this time period which caused some delays. Besides that, managed to succeed in extracting images from videos frame by frame. Looked more into Amazon Polly and succeeded in setting it up on WSL2 Ubuntu.
++ 7/18-20 - Started with looking at integration into Counterfit. First steps seem to be with making a new framework that will hold all the code and development. 
 
 ## Notes <a name = "notes"></a>
 These notes are an organization of of all the information collected and gathered. Therefore, each section (or bullet point) will be updated in the future if new relevant information is found.
@@ -55,7 +57,7 @@ These notes are an organization of of all the information collected and gathered
   
 This is information regarding the progress made towards video implementation in Counterfit.
 + Image - This can be gained from either DirectX or OpenCV. For my case, I will be using OpenCV as image extraction functionality seems to be better supported for my use cases. The goal is to be able to from a video, get a series of images that correspond to that video. This seems to be done best by extracting each frame inside a video.
-+ Audio - This can be done through Amazon Polly. This will allow for a transcription of the text to be gotten. May be a concern if there is no way for the text to be aligned with the video.
++ Audio - This can be done through Amazon Polly. This allows for text to be processed into an audio file. A concern is that this doesn't necessarily allow the reverse, however it seems that this can be used to generate data that the ML model can use to train and test itself with. If seeking to extract text through audio, pre-existing Python packages seem to be capable. 
 
 
 ## Current Questions <a name = "questions"></a>
